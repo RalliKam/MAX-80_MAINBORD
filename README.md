@@ -33,8 +33,6 @@ The project uses KiCad’s standard libraries alongside the libraries registered
 | [MAX80_BoardParts.pretty](MAX80_BoardParts.pretty) | 40-contact expansion bus connector, RCA video jack, clock-set pushbutton, and DO-7 diode footprint |
 | [MAX80_Passives.pretty](MAX80_Passives.pretty) | Trimmer capacitor for the real-time clock |
 
-If the Footprint Browser reports a missing local library named `LICA MAX-80`, you can disable that entry in the project’s footprint library table. The three directories above contain all the custom MAX-80 footprints used on this board.
-
 ## Technical documentation
 
 - [MAX-80 Technical Reference Manual (PDF)](Tech_Ref_Manual_Updated.pdf)
