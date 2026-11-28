@@ -5,34 +5,7 @@ The work ist NOT finished!!!!
 
 <img width="1742" height="1004" alt="pcb_6" src="https://github.com/user-attachments/assets/4d3778b6-d187-449b-80c8-2a5b072605c3" />
 
-
 The schematic spans five sheets. The PCB layout contains **228 footprints**. Routing is still pending.
-
-## Opening the project
-
-Open [MAX-80.kicad_pro](MAX-80.kicad_pro) in KiCad 10. Use the sheet hierarchy in the [top-level schematic](MAX-80.kicad_sch) to navigate between circuits. To inspect the board layout, open the [board file](MAX-80.kicad_pcb) in the PCB Editor.
-
-## Schematic sheets and original scans
-
-| Original sheet | Circuit | KiCad | Original scan |
-| --- | --- | --- | --- |
-| 1 | Z80B processor, system bus, and address decoding | [Schematic](MAX-80-Blatt-1.kicad_sch) | [Scan](1.png) |
-| 2 | RAM, boot PROM, and real-time clock | [Schematic](MAX-80-Blatt-2.kicad_sch) | [Scan](2.png) |
-| 3 | Serial interfaces and baud rate generator | [Schematic](MAX-80-Blatt-3.kicad_sch) | [Scan](3.png) |
-| 4 | Floppy disk controller and drive connectors | [Schematic](MAX-80-Blatt-4.kicad_sch) | [Scan](4.png) |
-| 6 | CRT controller, video memory, and video output | [Schematic](MAX-80-Blatt-6.kicad_sch) | [Scan](6.png) |
-
-Original sheet 5 covers the computer’s second board, which carries the keyboard matrix, hard disk interface, and printer port. Its KiCad files are in the [Keyboard Logic Board project](../MAX-80_KEYBOARD/MAX-80-Keyboard.kicad_pro).
-
-## Project libraries
-
-The project uses KiCad’s standard libraries alongside the libraries registered in [sym-lib-table](sym-lib-table) and [fp-lib-table](fp-lib-table). The custom footprints are grouped into three directories.
-
-| Footprint library | Contents |
-| --- | --- |
-| [MAX80_Edge.pretty](MAX80_Edge.pretty) | 34- and 50-contact card-edge connectors for the floppy drives |
-| [MAX80_BoardParts.pretty](MAX80_BoardParts.pretty) | 40-contact expansion bus connector, RCA video jack, clock-set pushbutton, and DO-7 diode footprint |
-| [MAX80_Passives.pretty](MAX80_Passives.pretty) | Trimmer capacitor for the real-time clock |
 
 ## Technical documentation
 
